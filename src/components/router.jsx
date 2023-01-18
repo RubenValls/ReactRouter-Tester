@@ -8,10 +8,10 @@ import Shop from './shop';
 const Router = () => {
     return (
         <Routes>
-            <Route path='/' element={<Home/>}/>
-            <Route path='/catalogue' element={<Catalog/>}/>
-            <Route path='/shop' element={<Shop/>}/>
-            <Route path='/blog' element={<Blog/>}/>
+            <Route path='ReactRouter-Tester/' element={<Home/>}/>
+            <Route path='ReactRouter-Tester/catalogue' element={<Catalog/>}/>
+            <Route path='ReactRouter-Tester/shop' element={<Shop/>}/>
+            <Route path='ReactRouter-Tester/blog' element={<Blog/>}/>
         </Routes>
     );
 }
